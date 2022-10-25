@@ -20,8 +20,12 @@ public class CrudApplication {
 	}
 
 	@GetMapping
-	public List<Student> hello(){
-		return List.of(new Student( 1L,"Hessah","hessahalhussain@gmail.com",LocalDate.of(2000,Month.FEBRUARY,16),22);
+	public List<Student> hello() {
+		return List.of(new Student(1L,
+				"Hessah",
+				"hessahalhussain@gmail.com",
+				LocalDate.of(2000, Month.FEBRUARY, 16),
+				22));
 	}
 
 }
