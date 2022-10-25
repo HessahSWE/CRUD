@@ -9,6 +9,11 @@ public class Student {
   private LocalDate dob;
   private Integer age;
 
+  @Override
+  public String toString() {
+    return "Student [id=" + id + ", name=" + name + ", email=" + email + ", dob=" + dob + ", age=" + age + "]";
+  }
+
   public Student(String name, String email, LocalDate dob, Integer age) {
     this.name = name;
     this.email = email;
